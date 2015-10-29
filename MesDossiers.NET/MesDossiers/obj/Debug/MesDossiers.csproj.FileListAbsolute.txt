@@ -1,0 +1,8 @@
+c:\users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\bin\Debug\MesDossiers.exe.config
+c:\users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\bin\Debug\MesDossiers.exe
+c:\users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\bin\Debug\MesDossiers.pdb
+c:\users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\obj\Debug\MesDossiers.InterfaceMesDossiers.resources
+c:\users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\obj\Debug\MesDossiers.Properties.Resources.resources
+c:\users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\obj\Debug\MesDossiers.csproj.GenerateResource.Cache
+c:\users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\obj\Debug\MesDossiers.exe
+c:\users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\obj\Debug\MesDossiers.pdb
