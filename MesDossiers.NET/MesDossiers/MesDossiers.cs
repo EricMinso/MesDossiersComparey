@@ -48,7 +48,7 @@ namespace MesDossiers
                  &&( ! compareDate   || elt.LastWriteTimeUtc.Equals( fichier.LastWriteTimeUtc )))
                     return true;
             }
-
+            
             return false;
         }
 
@@ -67,7 +67,7 @@ namespace MesDossiers
 #endregion
 #region Méthodes publiques d'instance
 
-        public void calculer( bool compareNom, bool compareTaille, bool compareDate )
+        public void calculer( bool compareNom, bool compareTaille, bool compareDate, string exclure = "" )
         {
             if( !( compareNom || compareTaille || compareDate ) )
                 throw new Exception( "Un critère de comparaison est nécessaire au minimum" ); 
@@ -81,26 +81,32 @@ namespace MesDossiers
 
             foreach( FileInfo fichier in this._listeGauche )
             {
-                if( contient( this._listeDroite, fichier, compareNom, compareTaille, compareDate ) )
+                if( 0 == exclure.Length || 0 > fichier.FullName.IndexOf( exclure ) )
                 {
-                    this._listeDoublons.Add( fichier );
-                }
-                else
-                {
-                    this._listeUniquesGauche.Add( fichier );
+                    if( contient( this._listeDroite, fichier, compareNom, compareTaille, compareDate ) )
+                    {
+                        this._listeDoublons.Add( fichier );
+                    }
+                    else
+                    {
+                        this._listeUniquesGauche.Add( fichier );
+                    }
                 }
             }
 
             foreach( FileInfo fichier in this._listeDroite )
             {
-                if( contient( this._listeGauche, fichier, compareNom, compareTaille, compareDate ) )
+                if( 0 == exclure.Length || 0 > fichier.FullName.IndexOf( exclure ) )
                 {
-                    if( !contient( this._listeDoublons, fichier, compareNom, compareTaille, compareDate ) )
-                        throw new Exception( "Doublon non détecté !?" );
-                }
-                else
-                {
-                    this._listeUniquesDroite.Add( fichier );
+                    if( contient( this._listeGauche, fichier, compareNom, compareTaille, compareDate ) )
+                    {
+                        if( !contient( this._listeDoublons, fichier, compareNom, compareTaille, compareDate ) )
+                            throw new Exception( "Doublon non détecté !?" );
+                    }
+                    else
+                    {
+                        this._listeUniquesDroite.Add( fichier );
+                    }
                 }
             }
         }
@@ -209,7 +215,6 @@ namespace MesDossiers
             }
         }*/
 
-    }
-
 #endregion
+    }
 }

@@ -1,8 +1,8 @@
-c:\Users\eminso\Documents\Visual Studio 2013\Projects\MesDossiers\MesDossiers\bin\Release\MesDossiers.exe.config
-c:\Users\eminso\Documents\Visual Studio 2013\Projects\MesDossiers\MesDossiers\bin\Release\MesDossiers.exe
-c:\Users\eminso\Documents\Visual Studio 2013\Projects\MesDossiers\MesDossiers\bin\Release\MesDossiers.pdb
-c:\Users\eminso\Documents\Visual Studio 2013\Projects\MesDossiers\MesDossiers\obj\Release\MesDossiers.InterfaceMesDossiers.resources
-c:\Users\eminso\Documents\Visual Studio 2013\Projects\MesDossiers\MesDossiers\obj\Release\MesDossiers.Properties.Resources.resources
-c:\Users\eminso\Documents\Visual Studio 2013\Projects\MesDossiers\MesDossiers\obj\Release\MesDossiers.csproj.GenerateResource.Cache
-c:\Users\eminso\Documents\Visual Studio 2013\Projects\MesDossiers\MesDossiers\obj\Release\MesDossiers.exe
-c:\Users\eminso\Documents\Visual Studio 2013\Projects\MesDossiers\MesDossiers\obj\Release\MesDossiers.pdb
+C:\Users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\bin\Release\MesDossiers.exe.config
+C:\Users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\bin\Release\MesDossiers.exe
+C:\Users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\bin\Release\MesDossiers.pdb
+C:\Users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\obj\Release\MesDossiers.InterfaceMesDossiers.resources
+C:\Users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\obj\Release\MesDossiers.Properties.Resources.resources
+C:\Users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\obj\Release\MesDossiers.csproj.GenerateResource.Cache
+C:\Users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\obj\Release\MesDossiers.exe
+C:\Users\eminso\documents\visual studio 2013\Projects\MesDossiers\MesDossiers\obj\Release\MesDossiers.pdb
